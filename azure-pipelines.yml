@@ -15,9 +15,9 @@ name: $(MajorVersion).$(MinorVersion).$(Patch)+$(Rev:r)
 
 steps:
   - task: DotNetCoreInstaller@0
-    displayName: 'Use .NET Core SDK 2.2.104'
+    displayName: 'Use .NET Core SDK 2.2.101'
     inputs:
-      version: 2.2.104
+      version: 2.2.101
 
   - task: DotNetCoreCLI@2
     displayName: 'Dotnet Restore'
