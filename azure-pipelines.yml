@@ -43,7 +43,7 @@ steps:
     displayName: 'Dotnet Publish'
     inputs:
       command: publish
-      projects: '**/*Flow.csproj'
+      projects: '**/About.Me.Functions.csproj'
       arguments: '--configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
       zipAfterPublish: True
       publishWebProjects: false
